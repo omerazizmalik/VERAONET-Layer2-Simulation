@@ -27,16 +27,19 @@ Delegated Proof of Stake (DPoS)
 based on real-time network load, system resources, and operational context.
 The goal is to achieve scalability, sustainability, and cost efficiency for cultural heritage applications such as artifact provenance, milestone-based rewards, and museum record verification.
 
-🧩 Repository Structure
+VERAONET-Layer2-Simulation/
+│
 ├── adaptive-consensus/
 │   ├── adaptive_switch.go          # Core logic for consensus switching
 │   ├── metrics_collector.go        # Geth node metrics for latency/gas tracking
-│   ├── config_thresholds.json      # Switching thresholds for PoW/APoW/PoS/DPoS
+│   └── config_thresholds.json      # Switching thresholds for PoW/APoW/PoS/DPoS
 │
 ├── experiments/
 │   ├── ganache_tests/              # Local Layer-2 simulations (10–500 users)
+│   │   └── run_simulation.py       # Python script for Ganache-based tests
 │   ├── geth_tests/                 # Public node simulations (50–10,000 users)
-│   ├── results/                    # CSVs with latency, gas, and energy metrics
+│   │   └── adaptive_switch.go      # Adaptive consensus for public testbed
+│   └── results/                    # CSV logs: latency, gas, energy usage
 │
 ├── visualization/
 │   ├── plots.ipynb                 # Notebook to reproduce Figures 4–5
@@ -47,7 +50,8 @@ The goal is to achieve scalability, sustainability, and cost efficiency for cult
 │   ├── SystemArchitecture_Figure3.pdf
 │   └── EvaluationReport.md
 │
-└── README.md                       # (this file)
+└── README.md                       # Project overview and setup instructions
+
 
 ⚙️ Experimental Setup
 1. Dependencies
