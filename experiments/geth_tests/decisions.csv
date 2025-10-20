@@ -1,0 +1,6 @@
+Test,Users,Latency_ms,SelectedConsensus
+1,100,1200,PoW
+2,800,680,APoW
+3,3200,280,PoS
+4,7200,190,DPoS
+5,9500,210,DPoS

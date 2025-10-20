@@ -1,0 +1,7 @@
+{
+  "low_load": 250,
+  "medium_load": 2500,
+  "high_load": 7000,
+  "latency_threshold": 500,
+  "energy_threshold": 0.70
+}

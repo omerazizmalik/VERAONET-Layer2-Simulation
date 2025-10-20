@@ -1,0 +1,6 @@
+Test,Consensus,Users,Gas_gwei
+1,PoW,100,41000
+2,APoW,800,33000
+3,PoS,3200,4200
+4,DPoS,7200,7600
+5,DPoS,9500,9800

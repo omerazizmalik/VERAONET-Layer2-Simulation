@@ -1,0 +1,6 @@
+Test,Consensus,Users,EnergyNormalized
+1,PoW,100,0.88
+2,APoW,800,0.63
+3,PoS,3200,0.19
+4,DPoS,7200,0.24
+5,DPoS,9500,0.27
